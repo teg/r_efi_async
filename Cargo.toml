@@ -1,0 +1,11 @@
+[package]
+name = "r-efi-async"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+atomic-option = "0.1.2"
+futures = "0.3.25"
+r-efi = { git = "https://github.com/r-efi/r-efi" }
